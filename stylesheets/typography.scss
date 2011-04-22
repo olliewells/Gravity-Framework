@@ -4,6 +4,7 @@ TYPOGRAPHY CSS
 
 -------------------------------------------------------------- */
 
+/* Declare your base font families here */
 $serif1: "Warnock Pro", "Goudy Old Style","Palatino","Book Antiqua", Georgia, serif;
 $sans1: "Myriad Pro", Myriad, Helvetica, Arial, sans-serif;
 
@@ -145,38 +146,3 @@ cite {
 img {
 	margin-bottom: 20px;
 }
-
-
-/* Tables
--------------------------------------------------------------- */
-
-table {
-	margin-bottom: 10px;
-	width: 100%;
-	border: 1px solid #ccc;
-}
-th {
-	border-bottom: 2px solid #ddd;
-	font-weight: bold;
-	text-align: left;
-	background: #ccc;
-}
-td {
-	border-bottom: 1px solid #ddd;
-}
-th,td {
-	padding: 10px;
-}
-tr:nth-child(odd) {
-	background-color: #ddd;
-}
-tr:nth-child(even) {
-	background-color: #eee;
-}
-tfoot {
-	font-style: italic;
-}
-caption {
-	background: #ffc;
-}
-

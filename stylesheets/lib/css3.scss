@@ -1,3 +1,9 @@
+/* --------------------------------------------------------------
+
+CSS3 Mixins for SASS
+
+-------------------------------------------------------------- */
+
 @mixin rounded($radius: 10px) {
 	border-radius: $radius;
 	-moz-border-radius: $radius;
